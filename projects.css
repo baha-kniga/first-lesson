@@ -1,0 +1,51 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    margin: 20px;
+    border: 2px solid black;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+header {
+    position: fixed;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#f {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
