@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,62 +14,150 @@
             <a href="#topNumbers">топ цифр</a>
             <a href="#img">одна из моих веб игр</a>
             <a href="#answers">вопросы</a>
+            <a href="#forms">форма</a>
         </nav>
     </header>
-    <section id="aboutMe">
-        <h1>Бахтияр</h1>
-        <p>занимаюсь программированием фронт энд уже полтора года, поучавствовал в своем первом оффлайн крупном хакатоне в Атакенте</p>
-        <p>раньше занимался шахматами, имею 1 разряд</p>
-        <p>учи китайский и английский, хочу поступить в Китай на веб разработчика</p>
-    </section>
-    <hr>
-    <section id="myHobbies">
-        <h2>Мои интересы</h2>
-        <ol>
-            <li><strong>программирование</strong></li>
-            <li><em>шахматы</em></li>
-            <li><strong>английский и китайский язык</strong></li>
-            <li><em>создание веб игр</em></li>
-        </ol>
-    </section>
-    <hr>
-    <section id="topNumbers">
-        <h2>топ цифр</h2>
-        <ol>
-            <li>6</li>
-            <li>3</li>
-            <li>8</li>
-            <li>7</li>
-            <li>1</li>
-            <li>2</li>
-            <li>0</li>
-            <li>4</li>
-            <li>5</li>
-            <li>9</li>
-        </ol>
-    </section>
-    <hr>
-    <section id="img">
-        <h2>одна из моих веб игр</h2>
-        <img src="./2025-08-15_12-04-16.png" width="70%" alt="изображение одной из моих веб игр">
-    </section>
-    <hr>
-    <h3>мое любимое <button onclick="b()"><a href="https://youtu.be/dQw4w9WgXcQ?si=qT3UvRHgZkA4DAD3" target="_blank" id="a">видео</a></button></h3>
-    <hr>
+    <main>
+        <section id="aboutMe">
+            <h1>Бахтияр</h1>
+            <article>
+                <h2>Обо мне</h2>
+                <p>занимаюсь программированием фронт энд уже полтора года, поучавствовал в своем первом оффлайн крупном хакатоне в Атакенте</p>
+                <p>раньше занимался шахматами, имею 1 разряд</p>
+                <p>учи китайский и английский, хочу поступить в Китай на веб разработчика</p>
+            </article>
+        </section>
+        <hr>
+        <section id="myHobbies">
+            <h2>Мои интересы</h2>
+            <ol>
+                <li><strong>программирование</strong></li>
+                <li><em>шахматы</em></li>
+                <li><strong>английский и китайский язык</strong></li>
+                <li><em>создание веб игр</em></li>
+            </ol>
+        </section>
+        <hr>
+        <section id="topNumbers">
+            <h2>топ цифр</h2>
+            <ol>
+                <li>6</li>
+                <li>3</li>
+                <li>8</li>
+                <li>7</li>
+                <li>1</li>
+                <li>2</li>
+                <li>0</li>
+                <li>4</li>
+                <li>5</li>
+                <li>9</li>
+            </ol>
+        </section>
+        <hr>
+        <section id="img">
+            <h2>одна из моих веб игр</h2>
+            <img src="./2025-08-15_12-04-16.png" alt="изображение одной из моих веб игр">
+        </section>
+        <hr>
+        <section id="favouriteVideo">
+            <h3>мое любимое <a href="https://youtu.be/dQw4w9WgXcQ?si=qT3UvRHgZkA4DAD3" target="_blank" id="a" onclick="b()">видео</a></h3>
+        </section>
+        <hr>
+        <section id="times">
+            <h2>времена</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>времена</th>
+                        <th>simple</th>
+                        <th>continuous</th>
+                        <th>perfect</th>
+                        <th>perfect continuous</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Present</td>
+                        <td>plays</td>
+                        <td>is playing</td>
+                        <td>has played</td>
+                        <td>has been playing</td>
+                    </tr>
+                    <tr>
+                        <td>Past</td>
+                        <td>played</td>
+                        <td>was playing</td>
+                        <td>had played</td>
+                        <td>had been playing</td>
+                    </tr>
+                    <tr>
+                        <td>Future</td>
+                        <td>will play</td>
+                        <td>will be playing</td>
+                        <td>will have played</td>
+                        <td>will have been playing</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">учите времена английского</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <hr>
         <section id="answers">
-        <ol>
             <h3>вопросы</h3>
-            <li>alt у изображения нужен для того чтобы если изображение не грузится было описание изображения</li>
-            <li>h1 это самая большая заголовочная строка, чаще всего ею пишут тему самого сайта, по этому используется чаще всего лишь 1 раз</li>
-            <li>strong означает что текст важный, а b делает текст просто жирным</li>
-            <li>чтобы добавить ссылку на якорь нужен айди какого то блока чтобы в аттрибут href написать как раз айди того блока и при нажатии перемещало к блоку</li>
-            <li>относительный путь означает что при перемещении при переносимся с помощью . и .., когда мы перемещаемся внутри папки а не через прямые ссылки</li>
-        </ol>
-    </section>
-    <hr>
-    <div>
-        <a href="./projects.html">к моим проектам</a>
-    </div>
+            <ol>
+                <li>alt у изображения нужен для того чтобы если изображение не грузится было описание изображения</li>
+                <li>h1 это самая большая заголовочная строка, чаще всего ею пишут тему самого сайта, по этому используется чаще всего лишь 1 раз</li>
+                <li>strong означает что текст важный, а b делает текст просто жирным</li>
+                <li>чтобы добавить ссылку на якорь нужен айди какого то блока чтобы в аттрибут href написать как раз айди того блока и при нажатии перемещало к блоку</li>
+                <li>относительный путь означает что при перемещении при переносимся с помощью . и .., когда мы перемещаемся внутри папки а не через прямые ссылки</li>
+            </ol>
+        </section>
+        <hr>
+        <div>
+            <a href="./projects.html">к моим проектам &check;</a>
+        </div>
+        <hr>
+        <section id="forms">
+            <h2>Форма обратной связи</h2>
+            <form action="people">
+                <label>
+                    Ваше имя:
+                    <input type="text" name="name">
+                </label>
+                <label>
+                    ваш email:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    ваше сообщение:
+                    <textarea name="message"></textarea>
+                </label>
+                <label>
+                    <select name="subject">
+                        <option value="feedback">Обратная связь</option>
+                        <option value="question">Вопрос</option>
+                        <option value="other">Другое</option>
+                    </select>
+                </label>
+                <label>
+                    <input type="checkbox" name="agreement">
+                    согласен с условиями
+                </label>
+                <div>
+                    <button type="reset">Сбросить</button>
+                    <button type="submit">Отправить</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Бахтияр. Все права защищены.</p>
+        <a href="./thanks.html">&hearts; Спасибо</a>
+    </footer>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
